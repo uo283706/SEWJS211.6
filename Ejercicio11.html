@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!--Datos que describen el documento-->
+    <meta charset="UTF-8">
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Sara Lamuño" >
+    <meta name ="description" content ="Ejercicio 11 de JQuery" >
+    <meta name ="keywords" content ="Calculadora, más, menos, por,entre" >
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "Ejercicio11.js" ></script>
+    
+
+    <title>Generador de rutas con transporte público</title>
+    <!--Añadir el elemento link de enlace a la hoja de estilo dento del <head> del documento html-->
+   
+     
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css">
+
+</head>
+
+<body>
+    <h1>Generador de Rutas en transporte público</h1>
+    <main>
+
+        <label for="origen">Lugar de origen:</label>
+        <input type="text" id="origen" value="origen">
+        <label for="destino">Lugar destino:</label>
+        <input type="text" id="destino" value="destino">
+
+         
+
+    </main>
+    <button id="generarruta" onclick = ruta.mostrarRuta()>Generar ruta</button>
+</body>
+</html>
+
+
+
